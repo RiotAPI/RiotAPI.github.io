@@ -8,11 +8,11 @@ title: 'Summoner-V3'
 
 ### Legend
 
- - [Endpoints](#Endpoints)
-   - [Endpoint Parameters Explained](#Endpoint-Parameters)
- - [Return Data](#Returns)
- - [Examples](#Examples)
-   - [PHP](#Examples-PHP)
+ - [Endpoints](#endpoints)
+   - [Endpoint Parameters Explained](#endpoint-Parameters)
+ - [Return Data](#returns)
+ - [Examples](#examples)
+   - [PHP](#php)
 
 
 The Summoner-V3 API provides us with 3 possible endpoints to make GET requests to:
