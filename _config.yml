@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+collections:
+  - navigation:
+    title: 'Home'
+    url: '/'
