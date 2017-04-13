@@ -2,3 +2,30 @@
 ---
 
 @import "{{ site.theme }}";
+
+
+header .nav {
+  // Clear Theme Styles
+  height: auto;
+  background: none;
+  border: none;
+  width: 100%;
+
+  & > li {
+    // Clear Theme Styles    
+    display: block;
+    width: 100%;
+    float: none;
+    border-right: none;
+    height: auto;
+
+    & > a {
+      // Clear Theme Styles  
+      font-size: 16px;
+      color: #39c;
+      text-align: left;
+      padding-top: 0;
+      height: auto;
+    }
+  }
+}
