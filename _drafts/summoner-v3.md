@@ -9,7 +9,7 @@ title: 'Summoner-V3'
 ### Legend
 
  - [Endpoints](#endpoints)
-   - [Endpoint Parameters Explained](#endpoint-Parameters)
+   - [Endpoint Parameters Explained](#endpoint-parameters)
  - [Return Data](#returns)
  - [Examples](#examples)
    - [PHP](#php)
