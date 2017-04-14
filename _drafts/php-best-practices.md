@@ -25,7 +25,7 @@ We're going to be using a dependency called [Guzzle](https://github.com/guzzle/g
 
 ### Including Guzzle
 
-Once we have Composer installed, we can move on to including Guzzle into our project. We open the terminal and ```cd``` into our project directory, then run one command ```sudo require guzzlehttp/guzzle```. This will reach out and grab the latest version of Guzzle, including it and any of its dependencies into a *vendor* folder of our project. It also creates a *composer.json* file, which lists the dependencies of our project. This is also useful because if anyone else were to download our project they wouldn't need the *vendor* folder, just composer and the *composer.json*. With those they can just run ```sudo composer install``` to install all project dependencies.
+Once we have Composer installed, we can move on to including Guzzle into our project. We open the terminal and ```cd``` into our project directory, then run one command ```composer require guzzlehttp/guzzle```. This will reach out and grab the latest version of Guzzle, including it and any of its dependencies into a *vendor* folder of our project. It also creates a *composer.json* file, which lists the dependencies of our project. This is also useful because if anyone else were to download our project they wouldn't need the *vendor* folder, just composer and the *composer.json*. With those they can just run ```sudo composer install``` to install all project dependencies.
 
 The last thing we need to do is include Guzzle into our project. Composer generates an autoload file at *vendor/autoload.php*. In our project, add ```require_once '/vendor/autoload.php';``` to the top of the first file run. This will automatically include all composer dependencies for us to work with.
 
@@ -38,7 +38,7 @@ We're now ready to work with Guzzle, and it's pretty easy. Lets make a call to t
 <?php
 
 // Includes Composers autoloader
-require_once 'vendor/autoload.php';
+require 'vendor/autoload.php';
 
 // Allows us to reference the following classes as the final name shown
 use GuzzleHttp\Client as Guzzle;
