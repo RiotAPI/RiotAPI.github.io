@@ -14,7 +14,7 @@ header .nav {
   border: none;
   width: 100%;
 
-  & > li {
+  & li {
     // Clear Theme Styles    
     display: block;
     width: 100%;
@@ -22,7 +22,7 @@ header .nav {
     border-right: none;
     height: auto;
 
-    & > a {
+    & a {
       // Clear Theme Styles  
       font-size: 16px;
       color: #39c;
