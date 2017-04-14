@@ -1,5 +1,6 @@
 ---
 title: 'PHP Best Practices'
+category: 'PHP'
 ---
 
 ## PHP Best Practices
