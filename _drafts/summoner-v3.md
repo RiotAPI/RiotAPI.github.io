@@ -1,5 +1,6 @@
 ---
 title: 'Summoner-V3'
+category: 'PHP'
 ---
 
 ## Summoner-V3 API
