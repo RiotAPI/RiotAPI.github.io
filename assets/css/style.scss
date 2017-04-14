@@ -7,7 +7,7 @@
 ul ul { margin-bottom: 0; }
 
 
-header .nav {
+header ul {
   // Clear Theme Styles
   height: auto;
   background: none;
@@ -31,5 +31,13 @@ header .nav {
       padding-bottom: 8px;
       height: auto;
     }
+  }
+}
+
+header .nav {
+  
+  & > li,
+  & .nav__list {
+    padding-left: 8px;
   }
 }
